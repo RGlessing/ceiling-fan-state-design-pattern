@@ -19,6 +19,13 @@ public class CeilingFanContextTest
         CeilingFanContext context = new CeilingFanContext();
         assertTrue(context instanceof CeilingFanContext);
     }
+
+    /**
+     * This test will ensure a ceiling fan is initially in the off state when a CeilingFanContext object is
+     * instantiated.
+     *
+     * @author Ryan Glessing
+     */
     @Test
     public void CheckIfInitiallyOff(){
         CeilingFanContext context = new CeilingFanContext();
