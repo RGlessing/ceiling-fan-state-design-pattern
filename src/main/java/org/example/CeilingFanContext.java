@@ -8,6 +8,10 @@ package org.example;
 public class CeilingFanContext {
     private SpeedState speed;
 
+    public CeilingFanContext(){
+        this.speed = new OffState();
+    }
+
     /**
      * Get method used to return the current fan speed
      *
