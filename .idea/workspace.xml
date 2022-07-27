@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Added Test to check if fan is initially in off state.">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CeilingFanContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CeilingFanContext.java" afterDir="false" />
+    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Added comment to CheckIfInitiallyOff test case">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +169,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658953580395</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Set speed to off state in CeilingFanContext constructor. Passed test CheckIfInitiallyOff.">
+      <created>1658953741527</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658953741527</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added comment to CheckIfInitiallyOff test case">
+      <created>1658953972382</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658953972382</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +204,8 @@
     <MESSAGE value="Added class and test for Off state" />
     <MESSAGE value="Added speed attribute with get and set methods to CeilingFanContext" />
     <MESSAGE value="Added Test to check if fan is initially in off state." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Test to check if fan is initially in off state." />
+    <MESSAGE value="Set speed to off state in CeilingFanContext constructor. Passed test CheckIfInitiallyOff." />
+    <MESSAGE value="Added comment to CheckIfInitiallyOff test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added comment to CheckIfInitiallyOff test case" />
   </component>
 </project>
