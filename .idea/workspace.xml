@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Added comment to CheckIfInitiallyOff test case">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowState.java" afterDir="false" />
+    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Changed CheckIfInitiallyOff to checkIfInitiallyOff">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CeilingFanContextTest.CheckIfInitiallyOff">
+  <component name="RunManager" selected="JUnit.OffStateTest.TestChangeSetting">
     <configuration name="CeilingFanContextTest.CheckIfInitiallyOff" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ceiling-fan-state-design-pattern" />
       <extension name="coverage">
@@ -109,8 +109,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OffStateTest.TestChangeSetting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ceiling-fan-state-design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.OffStateTest" />
+      <option name="METHOD_NAME" value="TestChangeSetting" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OffStateTest.TestChangeSetting" />
         <item itemvalue="JUnit.CeilingFanContextTest.CheckIfInitiallyOff" />
         <item itemvalue="JUnit.OffStateTest.CheckIfFanInOffState" />
         <item itemvalue="JUnit.CeilingFanContextTest.ceilingFanContextIsInstanceOf" />
@@ -183,7 +200,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658953972382</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added LowState. Implements SpeedState.">
+      <created>1658954201038</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658954201038</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Changed CheckIfInitiallyOff to checkIfInitiallyOff">
+      <created>1658954315993</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658954315993</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +237,8 @@
     <MESSAGE value="Added Test to check if fan is initially in off state." />
     <MESSAGE value="Set speed to off state in CeilingFanContext constructor. Passed test CheckIfInitiallyOff." />
     <MESSAGE value="Added comment to CheckIfInitiallyOff test case" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added comment to CheckIfInitiallyOff test case" />
+    <MESSAGE value="Added LowState. Implements SpeedState." />
+    <MESSAGE value="Changed CheckIfInitiallyOff to checkIfInitiallyOff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed CheckIfInitiallyOff to checkIfInitiallyOff" />
   </component>
 </project>
