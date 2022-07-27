@@ -26,6 +26,6 @@ public class CeilingFanContext {
      */
     public void setSpeed(SpeedState speed) { this.speed = speed; }
 
-    public void pullSpeedChain(){}
+    public void pullSpeedChain(){ speed.changeSetting(this);}
 
 }
