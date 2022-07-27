@@ -27,7 +27,7 @@ public class CeilingFanContextTest
      * @author Ryan Glessing
      */
     @Test
-    public void CheckIfInitiallyOff(){
+    public void checkIfInitiallyOff(){
         CeilingFanContext context = new CeilingFanContext();
         assertTrue(context.getSpeed() instanceof OffState);
     }
