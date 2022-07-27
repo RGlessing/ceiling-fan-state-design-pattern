@@ -19,4 +19,10 @@ public class CeilingFanContextTest
         CeilingFanContext context = new CeilingFanContext();
         assertTrue(context instanceof CeilingFanContext);
     }
+    @Test
+    public void CheckIfInitiallyOff(){
+        CeilingFanContext context = new CeilingFanContext();
+        assertTrue(context.getSpeed() instanceof OffState);
+    }
+
 }

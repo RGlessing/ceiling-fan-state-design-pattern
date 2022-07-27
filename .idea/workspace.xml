@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Added class and test for Off state">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CeilingFanContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CeilingFanContext.java" afterDir="false" />
+    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Added speed attribute with get and set methods to CeilingFanContext">
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CeilingFanContextTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CeilingFanContextTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,23 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.OffStateTest.CheckIfFanInOffState">
+  <component name="RunManager" selected="JUnit.CeilingFanContextTest.CheckIfInitiallyOff">
+    <configuration name="CeilingFanContextTest.CheckIfInitiallyOff" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ceiling-fan-state-design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CeilingFanContextTest" />
+      <option name="METHOD_NAME" value="CheckIfInitiallyOff" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CeilingFanContextTest.ceilingFanContextIsInstanceOf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ceiling-fan-state-design-pattern" />
       <extension name="coverage">
@@ -95,6 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CeilingFanContextTest.CheckIfInitiallyOff" />
         <item itemvalue="JUnit.OffStateTest.CheckIfFanInOffState" />
         <item itemvalue="JUnit.CeilingFanContextTest.ceilingFanContextIsInstanceOf" />
         <item itemvalue="JUnit.CeilingFanContextTest.shouldAnswerWithTrue" />
@@ -138,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658952757529</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added speed attribute with get and set methods to CeilingFanContext">
+      <created>1658953322102</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658953322102</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +181,7 @@
     <MESSAGE value="Changed default App and corresponding AppTest to CeilingFanContext and CeilingFanContextTest. Added unit test to CeilingFanContextTest called ceilingFanContextIsInstanceOf to ensure the constructor in CeilingFanContext works." />
     <MESSAGE value="Added interface for speed states." />
     <MESSAGE value="Added class and test for Off state" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added class and test for Off state" />
+    <MESSAGE value="Added speed attribute with get and set methods to CeilingFanContext" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added speed attribute with get and set methods to CeilingFanContext" />
   </component>
 </project>
