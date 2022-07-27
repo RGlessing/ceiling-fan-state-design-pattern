@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Added TestChangeSetting to OffStateTest and empty pullSpeedChain method to CeilingFanContext." />
+    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Added code to pullSpeedChain. Now change from off to low state. Passed test.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CeilingFanContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CeilingFanContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/OffStateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/SpeedStateTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +46,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.OffStateTest.TestChangeSetting">
+  <component name="RunManager" selected="JUnit.SpeedStateTest.TestChangeSettingOffToLow">
     <configuration name="CeilingFanContextTest.CheckIfInitiallyOff" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ceiling-fan-state-design-pattern" />
       <extension name="coverage">
@@ -75,7 +79,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CeilingFanContextTest.shouldAnswerWithTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpeedStateTest.CheckIfFanInOffState" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ceiling-fan-state-design-pattern" />
       <extension name="coverage">
         <pattern>
@@ -84,30 +88,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CeilingFanContextTest" />
-      <option name="METHOD_NAME" value="shouldAnswerWithTrue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OffStateTest.CheckIfFanInOffState" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ceiling-fan-state-design-pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.OffStateTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.SpeedStateTest" />
       <option name="METHOD_NAME" value="CheckIfFanInOffState" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OffStateTest.TestChangeSetting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpeedStateTest.TestChangeSetting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ceiling-fan-state-design-pattern" />
       <extension name="coverage">
         <pattern>
@@ -116,8 +104,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.OffStateTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.SpeedStateTest" />
       <option name="METHOD_NAME" value="TestChangeSetting" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpeedStateTest.TestChangeSettingOffToLow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ceiling-fan-state-design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.SpeedStateTest" />
+      <option name="METHOD_NAME" value="TestChangeSettingOffToLow" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OffStateTest.TestChangeSetting" />
+        <item itemvalue="JUnit.SpeedStateTest.TestChangeSettingOffToLow" />
+        <item itemvalue="JUnit.SpeedStateTest.TestChangeSetting" />
         <item itemvalue="JUnit.CeilingFanContextTest.CheckIfInitiallyOff" />
-        <item itemvalue="JUnit.OffStateTest.CheckIfFanInOffState" />
+        <item itemvalue="JUnit.SpeedStateTest.CheckIfFanInOffState" />
         <item itemvalue="JUnit.CeilingFanContextTest.ceilingFanContextIsInstanceOf" />
-        <item itemvalue="JUnit.CeilingFanContextTest.shouldAnswerWithTrue" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658955251754</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added code to pullSpeedChain. Now change from off to low state. Passed test.">
+      <created>1658955438473</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1658955438473</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,6 +256,7 @@
     <MESSAGE value="Added LowState. Implements SpeedState." />
     <MESSAGE value="Changed CheckIfInitiallyOff to checkIfInitiallyOff" />
     <MESSAGE value="Added TestChangeSetting to OffStateTest and empty pullSpeedChain method to CeilingFanContext." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added TestChangeSetting to OffStateTest and empty pullSpeedChain method to CeilingFanContext." />
+    <MESSAGE value="Added code to pullSpeedChain. Now change from off to low state. Passed test." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code to pullSpeedChain. Now change from off to low state. Passed test." />
   </component>
 </project>
