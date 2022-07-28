@@ -58,4 +58,15 @@ public class SpeedStateTest {
         context.pullSpeedChain();
         assertTrue(context.getSpeed() instanceof OffState);
     }
+
+    /**
+     * This test will ensure that the fan's direction is unaffected by a change in its speed when the speed chain
+     * is pulled. A new fan is initially set to clockwise, and should remain set to spin clockwise.
+     */
+    @Test
+    public void speedChangeDoesNotChangeDirection(){
+        CeilingFanContext context = new CeilingFanContext();
+        context.pullSpeedChain();
+        assertTrue(context.getDirection() instanceof ClockwiseState);
+    }
 }
