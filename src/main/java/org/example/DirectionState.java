@@ -9,5 +9,11 @@ package org.example;
  */
 
 public interface DirectionState {
+    /**
+     * This method is implemented by direction states. The implementations will use this method to change a fan's
+     * direction.
+     *
+     * @param context The Ceiling Fan Context
+     */
     void changeSetting(CeilingFanContext context);
 }

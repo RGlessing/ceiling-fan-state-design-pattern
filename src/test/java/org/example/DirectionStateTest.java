@@ -6,6 +6,8 @@ import static org.junit.Assert.assertTrue;
 
 /**
  * Unit tests for testing the speed state functionality.
+ *
+ * @author Ryan Glessing
  */
 
 public class DirectionStateTest {

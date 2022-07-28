@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Renamed test methods to begin with lowercase letters.">
+    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Added and passed test to ensure speed change does not affect direction.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CounterclockwiseState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CounterclockwiseState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DirectionState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DirectionState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SpeedState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SpeedState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CeilingFanContextTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CeilingFanContextTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DirectionStateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DirectionStateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SpeedStateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/SpeedStateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +51,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.SpeedStateTest.speedChangeDoesNotChangeDirection">
+  <component name="RunManager" selected="JUnit.CeilingFanContextTest">
+    <configuration name="CeilingFanContextTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ceiling-fan-state-design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CeilingFanContextTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DirectionStateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ceiling-fan-state-design-pattern" />
       <extension name="coverage">
@@ -57,22 +78,6 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.DirectionStateTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DirectionStateTest.TestChangeSettingCounterclockwiseToClockwise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ceiling-fan-state-design-pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DirectionStateTest" />
-      <option name="METHOD_NAME" value="TestChangeSettingCounterclockwiseToClockwise" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpeedStateTest.speedChangeDoesNotChangeDirection" />
-        <item itemvalue="JUnit.DirectionStateTest.directionChangeDoesNotChangeSpeed" />
+        <item itemvalue="JUnit.CeilingFanContextTest" />
         <item itemvalue="JUnit.DirectionStateTest" />
         <item itemvalue="JUnit.SpeedStateTest" />
-        <item itemvalue="JUnit.DirectionStateTest.TestChangeSettingCounterclockwiseToClockwise" />
+        <item itemvalue="JUnit.SpeedStateTest.speedChangeDoesNotChangeDirection" />
+        <item itemvalue="JUnit.DirectionStateTest.directionChangeDoesNotChangeSpeed" />
       </list>
     </recent_temporary>
   </component>
@@ -332,7 +337,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659033503517</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Added and passed test to ensure direction change does not affect speed.">
+      <created>1659033843409</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1659033843409</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Added and passed test to ensure speed change does not affect direction.">
+      <created>1659034037476</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1659034037476</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -347,8 +366,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added interface for speed states." />
-    <MESSAGE value="Added class and test for Off state" />
     <MESSAGE value="Added speed attribute with get and set methods to CeilingFanContext" />
     <MESSAGE value="Added Test to check if fan is initially in off state." />
     <MESSAGE value="Set speed to off state in CeilingFanContext constructor. Passed test CheckIfInitiallyOff." />
@@ -372,6 +389,8 @@
     <MESSAGE value="Implemented counterclockwise to clockwise state change. Fixed and passed related test." />
     <MESSAGE value="Added comments to changeSetting methods of direction states." />
     <MESSAGE value="Renamed test methods to begin with lowercase letters." />
-    <option name="LAST_COMMIT_MESSAGE" value="Renamed test methods to begin with lowercase letters." />
+    <MESSAGE value="Added and passed test to ensure direction change does not affect speed." />
+    <MESSAGE value="Added and passed test to ensure speed change does not affect direction." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added and passed test to ensure speed change does not affect direction." />
   </component>
 </project>

@@ -9,5 +9,11 @@ package org.example;
  */
 
 public interface SpeedState {
+    /**
+     * This method is implemented by speed states. The implementations will use this method to change a fan's
+     * speed.
+     *
+     * @param context The Ceiling Fan Context
+     */
     void changeSetting(CeilingFanContext context);
 }

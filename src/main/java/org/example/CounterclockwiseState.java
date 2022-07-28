@@ -1,5 +1,12 @@
 package org.example;
 
+/**
+ * This is the class file for a CounterclockwiseState object. The CounterclockwiseState implements the DirectionState
+ * interface. It contains the method changeSetting, that changes the fan's direction to clockwise.
+ *
+ * @author Ryan Glessing
+ */
+
 public class CounterclockwiseState implements DirectionState{
 
     /**
