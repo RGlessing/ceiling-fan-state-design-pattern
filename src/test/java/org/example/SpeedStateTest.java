@@ -14,7 +14,7 @@ public class SpeedStateTest {
      * CeilingFanContext instance calls the pullSpeedChain method.
      */
     @Test
-    public void TestChangeSettingOffToLow(){
+    public void testChangeSettingOffToLow(){
         CeilingFanContext context = new CeilingFanContext();
         context.pullSpeedChain();
         assertTrue(context.getSpeed() instanceof LowState);
@@ -25,7 +25,7 @@ public class SpeedStateTest {
      * CeilingFanContext instance calls the pullSpeedChain method twice.
      */
     @Test
-    public void TestChangeSettingLowToMedium(){
+    public void testChangeSettingLowToMedium(){
         CeilingFanContext context = new CeilingFanContext();
         context.pullSpeedChain();
         context.pullSpeedChain();
@@ -37,7 +37,7 @@ public class SpeedStateTest {
      * CeilingFanContext instance calls the pullSpeedChain method three times.
      */
     @Test
-    public void TestChangeSettingMediumToHigh(){
+    public void testChangeSettingMediumToHigh(){
         CeilingFanContext context = new CeilingFanContext();
         context.pullSpeedChain();
         context.pullSpeedChain();
@@ -50,7 +50,7 @@ public class SpeedStateTest {
      * CeilingFanContext instance calls the pullSpeedChain method four times.
      */
     @Test
-    public void TestChangeSettingHighToOff(){
+    public void testChangeSettingHighToOff(){
         CeilingFanContext context = new CeilingFanContext();
         context.pullSpeedChain();
         context.pullSpeedChain();
