@@ -11,7 +11,7 @@ public class OffState implements SpeedState{
 
     /**
      * When called, this method will use the setSpeed method of a CeilingFanContext object to change the current
-     * speed. The speed will be set to low from off.
+     * speed. The speed will be set to low.
      *
      * @param context The Ceiling Fan Context
      */

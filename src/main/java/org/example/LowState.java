@@ -10,7 +10,7 @@ public class LowState implements SpeedState {
 
     /**
      * When called, this method will use the setSpeed method of a CeilingFanContext object to change the current
-     * speed. The speed will be set to medium from low.
+     * speed. The speed will be set to medium.
      *
      * @param context The Ceiling Fan Context
      */
