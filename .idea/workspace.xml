@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Implemented low to medium state change. Commented Code.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HighState.java" afterDir="false" />
+    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Implemented changeSetting in MediumState to change from medium to high state. Added and fixed comments.">
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SpeedStateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/SpeedStateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +44,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.SpeedStateTest">
+  <component name="RunManager" selected="JUnit.SpeedStateTest.TestChangeSettingHighToOff">
     <configuration name="CeilingFanContextTest.ceilingFanContextIsInstanceOf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ceiling-fan-state-design-pattern" />
       <extension name="coverage">
@@ -77,7 +76,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpeedStateTest.TestChangeSetting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpeedStateTest.TestChangeSettingHighToOff" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ceiling-fan-state-design-pattern" />
       <extension name="coverage">
         <pattern>
@@ -87,7 +86,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.SpeedStateTest" />
-      <option name="METHOD_NAME" value="TestChangeSetting" />
+      <option name="METHOD_NAME" value="TestChangeSettingHighToOff" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpeedStateTest.TestChangeSettingHighToOff" />
         <item itemvalue="JUnit.SpeedStateTest" />
         <item itemvalue="JUnit.SpeedStateTest.TestChangeSettingLowToMedium" />
         <item itemvalue="JUnit.CeilingFanContextTest.ceilingFanContextIsInstanceOf" />
         <item itemvalue="JUnit.SpeedStateTest.TestChangeSettingOffToLow" />
-        <item itemvalue="JUnit.SpeedStateTest.TestChangeSetting" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +248,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658967938317</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added test for changing to medium to high state. Created high state.">
+      <created>1658968156817</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1658968156817</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Implemented changeSetting in MediumState to change from medium to high state. Added and fixed comments.">
+      <created>1658968382946</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1658968382946</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,6 +292,8 @@
     <MESSAGE value="Comments and Refactoring" />
     <MESSAGE value="Added MediumState and test for changing to medium state" />
     <MESSAGE value="Implemented low to medium state change. Commented Code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented low to medium state change. Commented Code." />
+    <MESSAGE value="Added test for changing to medium to high state. Created high state." />
+    <MESSAGE value="Implemented changeSetting in MediumState to change from medium to high state. Added and fixed comments." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented changeSetting in MediumState to change from medium to high state. Added and fixed comments." />
   </component>
 </project>

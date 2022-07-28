@@ -44,4 +44,18 @@ public class SpeedStateTest {
         context.pullSpeedChain();
         assertTrue(context.getSpeed() instanceof HighState);
     }
+
+    /**
+     * This test will ensure that the Ceiling fan changes from the high state to the off state, when a
+     * CeilingFanContext instance calls the pullSpeedChain method four times.
+     */
+    @Test
+    public void TestChangeSettingHighToOff(){
+        CeilingFanContext context = new CeilingFanContext();
+        context.pullSpeedChain();
+        context.pullSpeedChain();
+        context.pullSpeedChain();
+        context.pullSpeedChain();
+        assertTrue(context.getSpeed() instanceof OffState);
+    }
 }
