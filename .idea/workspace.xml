@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Added code to pullSpeedChain. Now change from off to low state. Passed test.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CeilingFanContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CeilingFanContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/OffStateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/SpeedStateTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Comments and Refactoring" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -230,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658955438473</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Comments and Refactoring">
+      <created>1658955851836</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1658955851836</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -257,6 +260,7 @@
     <MESSAGE value="Changed CheckIfInitiallyOff to checkIfInitiallyOff" />
     <MESSAGE value="Added TestChangeSetting to OffStateTest and empty pullSpeedChain method to CeilingFanContext." />
     <MESSAGE value="Added code to pullSpeedChain. Now change from off to low state. Passed test." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code to pullSpeedChain. Now change from off to low state. Passed test." />
+    <MESSAGE value="Comments and Refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comments and Refactoring" />
   </component>
 </project>

@@ -19,4 +19,16 @@ public class SpeedStateTest {
         context.pullSpeedChain();
         assertTrue(context.getSpeed() instanceof LowState);
     }
+
+    /**
+     * This test will ensure that the Ceiling fan changes from the low state to the medium state, when a
+     * CeilingFanContext instance calls the pullSpeedChain method twice.
+     */
+    @Test
+    public void TestChangeSettingLowToMedium(){
+        CeilingFanContext context = new CeilingFanContext();
+        context.pullSpeedChain();
+        context.pullSpeedChain();
+        assertTrue(context.getSpeed() instanceof MediumState);
+    }
 }
