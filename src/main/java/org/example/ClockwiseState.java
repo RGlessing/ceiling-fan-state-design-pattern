@@ -10,6 +10,6 @@ package org.example;
 public class ClockwiseState implements DirectionState{
     @Override
     public void changeSetting(CeilingFanContext context) {
-
+        context.setDirection(new CounterclockwiseState());
     }
 }

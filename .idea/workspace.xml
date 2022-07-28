@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Added direction attribute with get and set methods. Added a clockwise state. Added direction init test.">
+    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Added test for direction state change clockwise to counterclockwise. Created related empty files and methods.">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CeilingFanContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CeilingFanContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ClockwiseState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ClockwiseState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CounterclockwiseState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CounterclockwiseState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,23 +47,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.CeilingFanContextTest.checkIfInitiallyClockwise">
-    <configuration name="CeilingFanContextTest.ceilingFanContextIsInstanceOf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ceiling-fan-state-design-pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CeilingFanContextTest" />
-      <option name="METHOD_NAME" value="ceilingFanContextIsInstanceOf" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.DirectionStateTest.TestChangeSettingClockwiseToCounterclockwise">
     <configuration name="CeilingFanContextTest.checkIfInitiallyClockwise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ceiling-fan-state-design-pattern" />
       <extension name="coverage">
@@ -74,6 +59,37 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.CeilingFanContextTest" />
       <option name="METHOD_NAME" value="checkIfInitiallyClockwise" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DirectionStateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ceiling-fan-state-design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DirectionStateTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DirectionStateTest.TestChangeSettingClockwiseToCounterclockwise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ceiling-fan-state-design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DirectionStateTest" />
+      <option name="METHOD_NAME" value="TestChangeSettingClockwiseToCounterclockwise" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,29 +126,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpeedStateTest.TestChangeSettingLowToMedium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ceiling-fan-state-design-pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.SpeedStateTest" />
-      <option name="METHOD_NAME" value="TestChangeSettingLowToMedium" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DirectionStateTest.TestChangeSettingClockwiseToCounterclockwise" />
+        <item itemvalue="JUnit.DirectionStateTest" />
         <item itemvalue="JUnit.CeilingFanContextTest.checkIfInitiallyClockwise" />
         <item itemvalue="JUnit.SpeedStateTest" />
         <item itemvalue="JUnit.SpeedStateTest.TestChangeSettingHighToOff" />
-        <item itemvalue="JUnit.SpeedStateTest.TestChangeSettingLowToMedium" />
-        <item itemvalue="JUnit.CeilingFanContextTest.ceilingFanContextIsInstanceOf" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +285,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659032018021</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Passed fan direction init test.">
+      <created>1659032283316</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1659032283318</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Added test for direction state change clockwise to counterclockwise. Created related empty files and methods.">
+      <created>1659032522597</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1659032522597</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -320,6 +334,8 @@
     <MESSAGE value="Added test for changing from High to Off state." />
     <MESSAGE value="Added DirectionState Interface and DirectionStateTest" />
     <MESSAGE value="Added direction attribute with get and set methods. Added a clockwise state. Added direction init test." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added direction attribute with get and set methods. Added a clockwise state. Added direction init test." />
+    <MESSAGE value="Passed fan direction init test." />
+    <MESSAGE value="Added test for direction state change clockwise to counterclockwise. Created related empty files and methods." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added test for direction state change clockwise to counterclockwise. Created related empty files and methods." />
   </component>
 </project>

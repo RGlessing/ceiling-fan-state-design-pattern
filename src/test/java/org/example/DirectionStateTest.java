@@ -14,9 +14,9 @@ public class DirectionStateTest {
      * when a CeilingFanContext instance calls the pullDirectionChain method.
      */
     @Test
-    public void TestChangeSettingOffToLow(){
+    public void TestChangeSettingClockwiseToCounterclockwise(){
         CeilingFanContext context = new CeilingFanContext();
         context.pullDirectionChain();
-        assertTrue(context.getSpeed() instanceof CounterclockwiseState);
+        assertTrue(context.getDirection() instanceof CounterclockwiseState);
     }
 }

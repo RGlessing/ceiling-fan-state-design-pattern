@@ -49,6 +49,11 @@ public class CeilingFanContext {
      */
     public void pullSpeedChain(){ speed.changeSetting(this); }
 
-    public void pullDirectionChain() { }
+    /**
+     * Simulates pulling the fan's direction chain. Calls the changeSetting function of the direction attribute, which
+     * is in the clockwise or counterclockwise state. This will use the setDirection function of this class to
+     * alternate directions.
+     */
+    public void pullDirectionChain() { direction.changeSetting(this); }
 
 }
