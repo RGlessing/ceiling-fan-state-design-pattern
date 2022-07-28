@@ -9,5 +9,14 @@ import static org.junit.Assert.assertTrue;
  */
 
 public class DirectionStateTest {
-
+    /**
+     * This test will ensure that the Ceiling fan changes from the clockwise state to the counterclockwise state,
+     * when a CeilingFanContext instance calls the pullDirectionChain method.
+     */
+    @Test
+    public void TestChangeSettingOffToLow(){
+        CeilingFanContext context = new CeilingFanContext();
+        context.pullDirectionChain();
+        assertTrue(context.getSpeed() instanceof CounterclockwiseState);
+    }
 }

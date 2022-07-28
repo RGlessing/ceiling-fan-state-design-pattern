@@ -47,6 +47,8 @@ public class CeilingFanContext {
      * is in the off, low, medium, or high state. This will use the setSpeed function of this class to set it to the
      * next speed setting. If speed is set to the high state, it is next set to the off state.
      */
-    public void pullSpeedChain(){ speed.changeSetting(this);}
+    public void pullSpeedChain(){ speed.changeSetting(this); }
+
+    public void pullDirectionChain() { }
 
 }
