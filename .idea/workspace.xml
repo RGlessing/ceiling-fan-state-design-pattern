@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Added DirectionState Interface and DirectionStateTest">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ClockwiseState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Added direction attribute with get and set methods. Added a clockwise state. Added direction init test.">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CeilingFanContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CeilingFanContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CeilingFanContextTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CeilingFanContextTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ClockwiseState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ClockwiseState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659031599990</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Added direction attribute with get and set methods. Added a clockwise state. Added direction init test.">
+      <created>1659032018021</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1659032018021</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -314,6 +319,7 @@
     <MESSAGE value="Implemented changeSetting in MediumState to change from medium to high state. Added and fixed comments." />
     <MESSAGE value="Added test for changing from High to Off state." />
     <MESSAGE value="Added DirectionState Interface and DirectionStateTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added DirectionState Interface and DirectionStateTest" />
+    <MESSAGE value="Added direction attribute with get and set methods. Added a clockwise state. Added direction init test." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added direction attribute with get and set methods. Added a clockwise state. Added direction init test." />
   </component>
 </project>

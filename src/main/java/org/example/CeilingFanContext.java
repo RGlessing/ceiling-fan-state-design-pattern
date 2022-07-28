@@ -10,7 +10,8 @@ public class CeilingFanContext {
     private DirectionState direction;
 
     public CeilingFanContext(){
-        this.speed = new OffState();
+        speed = new OffState();
+        direction = new ClockwiseState();
     }
 
     /**
