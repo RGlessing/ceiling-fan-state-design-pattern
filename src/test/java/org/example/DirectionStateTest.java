@@ -19,4 +19,14 @@ public class DirectionStateTest {
         context.pullDirectionChain();
         assertTrue(context.getDirection() instanceof CounterclockwiseState);
     }
+    /**
+     * This test will ensure that the Ceiling fan changes from the counterclockwise state to the clockwise state,
+     * when a CeilingFanContext instance calls the pullDirectionChain method.
+     */
+    @Test
+    public void TestChangeSettingCounterclockwiseToClockwise(){
+        CeilingFanContext context = new CeilingFanContext();
+        context.pullDirectionChain();
+        assertTrue(context.getDirection() instanceof ClockwiseState);
+    }
 }

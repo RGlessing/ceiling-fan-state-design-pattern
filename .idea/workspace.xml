@@ -47,7 +47,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.DirectionStateTest.TestChangeSettingClockwiseToCounterclockwise">
+  <component name="RunManager" selected="JUnit.DirectionStateTest.TestChangeSettingCounterclockwiseToClockwise">
     <configuration name="CeilingFanContextTest.checkIfInitiallyClockwise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ceiling-fan-state-design-pattern" />
       <extension name="coverage">
@@ -95,6 +95,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DirectionStateTest.TestChangeSettingCounterclockwiseToClockwise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ceiling-fan-state-design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DirectionStateTest" />
+      <option name="METHOD_NAME" value="TestChangeSettingCounterclockwiseToClockwise" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpeedStateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ceiling-fan-state-design-pattern" />
       <extension name="coverage">
@@ -110,29 +126,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpeedStateTest.TestChangeSettingHighToOff" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ceiling-fan-state-design-pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.SpeedStateTest" />
-      <option name="METHOD_NAME" value="TestChangeSettingHighToOff" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DirectionStateTest.TestChangeSettingCounterclockwiseToClockwise" />
         <item itemvalue="JUnit.DirectionStateTest.TestChangeSettingClockwiseToCounterclockwise" />
         <item itemvalue="JUnit.DirectionStateTest" />
         <item itemvalue="JUnit.CeilingFanContextTest.checkIfInitiallyClockwise" />
         <item itemvalue="JUnit.SpeedStateTest" />
-        <item itemvalue="JUnit.SpeedStateTest.TestChangeSettingHighToOff" />
       </list>
     </recent_temporary>
   </component>
