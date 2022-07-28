@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Added test for direction state change clockwise to counterclockwise. Created related empty files and methods.">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CeilingFanContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CeilingFanContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ClockwiseState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ClockwiseState.java" afterDir="false" />
+    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Added test for counterclockwise to clockwise state change.">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CounterclockwiseState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CounterclockwiseState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DirectionStateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DirectionStateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,7 +298,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659032522597</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Implemented clockwise state change. Fixed and passed related test. Implemented pullDirectionChain method.">
+      <created>1659032822474</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1659032822474</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Added test for counterclockwise to clockwise state change.">
+      <created>1659032909136</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1659032909136</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -336,6 +349,8 @@
     <MESSAGE value="Added direction attribute with get and set methods. Added a clockwise state. Added direction init test." />
     <MESSAGE value="Passed fan direction init test." />
     <MESSAGE value="Added test for direction state change clockwise to counterclockwise. Created related empty files and methods." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added test for direction state change clockwise to counterclockwise. Created related empty files and methods." />
+    <MESSAGE value="Implemented clockwise state change. Fixed and passed related test. Implemented pullDirectionChain method." />
+    <MESSAGE value="Added test for counterclockwise to clockwise state change." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added test for counterclockwise to clockwise state change." />
   </component>
 </project>

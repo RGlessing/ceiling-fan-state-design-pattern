@@ -27,6 +27,7 @@ public class DirectionStateTest {
     public void TestChangeSettingCounterclockwiseToClockwise(){
         CeilingFanContext context = new CeilingFanContext();
         context.pullDirectionChain();
+        context.pullDirectionChain();
         assertTrue(context.getDirection() instanceof ClockwiseState);
     }
 }
