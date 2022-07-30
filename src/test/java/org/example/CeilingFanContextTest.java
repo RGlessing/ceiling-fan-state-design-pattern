@@ -12,15 +12,6 @@ import org.junit.Test;
 public class CeilingFanContextTest
 {
     /**
-     * This test will ensure the constructor defined in CeilingFanContext creates an instance of CeilingFanContext
-     */
-    @Test
-    public void ceilingFanContextIsInstanceOf() {
-        CeilingFanContext context = new CeilingFanContext();
-        assertTrue(context instanceof CeilingFanContext);
-    }
-
-    /**
      * This test will ensure a ceiling fan is initially in the off state when a CeilingFanContext object is
      * instantiated.
      */

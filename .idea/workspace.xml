@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Added and passed test to ensure speed change does not affect direction.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CounterclockwiseState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CounterclockwiseState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DirectionState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DirectionState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SpeedState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SpeedState.java" afterDir="false" />
+    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Added comments">
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CeilingFanContextTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CeilingFanContextTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DirectionStateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DirectionStateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SpeedStateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/SpeedStateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
