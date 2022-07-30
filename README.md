@@ -2,18 +2,16 @@
 
 ## Overview
 
-This project is intended to simulate a ceiling fan using the state design pattern. The fan has two chains that are used to change its speed and direction. The fan has four speed states, which are off, low, medium, and high. Pulling the speed chain will change the fans speed to the next state in the order given. If it is in the high state, then the fan will return to the off state. The fan has two direction states, clockwise and counterclockwise. Pulling the direction chain will alternate the fan's direction between clockwise and counterclockwise. 
-
-## Installation
-
-**HTTP**
-
-git clone https://github.com/RGlessing/ceiling-fan-state-design-pattern.git
+This project is intended to simulate a ceiling fan using the [state design pattern](https://www.tutorialspoint.com/design_pattern/state_pattern.htm). The fan has two chains that are used to change its speed and direction. The fan has four speed states, which are off, low, medium, and high. Pulling the speed chain will change the fans speed to the next state in the order given. If it is in the high state, then the fan will return to the off state. The fan has two direction states, clockwise and counterclockwise. Pulling the direction chain will alternate the fan's direction between clockwise and counterclockwise. 
 
 ## Testing
 
-jUnit was used for testing this project. The relevent test cases for this project can be found in the files listed below.
+jUnit4 was used for testing this project. The relevent test cases for this project can be found in the files listed below.
 
-- ceiling-fan-state-design-pattern/src/test/java/org/example/CeilingFanContextTest.java
-- ceiling-fan-state-design-pattern/src/test/java/org/example/DirectionStateTest.java
-- ceiling-fan-state-design-pattern/src/test/java/org/example/SpeedStateTest.java
+- [CeilingFanContextTest](https://github.com/RGlessing/ceiling-fan-state-design-pattern/blob/03733a129b9f4b6b6cefea77952f6d7f403d2a02/src/test/java/org/example/CeilingFanContextTest.java)
+- [ClockwiseStateTest](https://github.com/RGlessing/ceiling-fan-state-design-pattern/blob/03733a129b9f4b6b6cefea77952f6d7f403d2a02/src/test/java/org/example/ClockwiseStateTest.java)
+- [CounterclockwiseStateTest](https://github.com/RGlessing/ceiling-fan-state-design-pattern/blob/03733a129b9f4b6b6cefea77952f6d7f403d2a02/src/test/java/org/example/CounterclockwiseStateTest.java)
+- [OffStateTest](https://github.com/RGlessing/ceiling-fan-state-design-pattern/blob/03733a129b9f4b6b6cefea77952f6d7f403d2a02/src/test/java/org/example/OffStateTest.java)
+- [LowStateTest](https://github.com/RGlessing/ceiling-fan-state-design-pattern/blob/03733a129b9f4b6b6cefea77952f6d7f403d2a02/src/test/java/org/example/LowStateTest.java)
+- [MediumStateTest](https://github.com/RGlessing/ceiling-fan-state-design-pattern/blob/03733a129b9f4b6b6cefea77952f6d7f403d2a02/src/test/java/org/example/MediumStateTest.java)
+- [HighStateTest](https://github.com/RGlessing/ceiling-fan-state-design-pattern/blob/03733a129b9f4b6b6cefea77952f6d7f403d2a02/src/test/java/org/example/HighStateTest.java)
