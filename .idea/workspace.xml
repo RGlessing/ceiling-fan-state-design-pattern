@@ -56,8 +56,8 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MediumStateTest.changeSetting_nullCeilingStateContext_throwsException">
-    <configuration name="CeilingFanContextTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HighStateTest.changeSetting_nullCeilingStateContext_throwsException">
+    <configuration name="HighStateTest.changeSetting_nullCeilingStateContext_throwsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ceiling-fan-state-design-pattern" />
       <extension name="coverage">
         <pattern>
@@ -66,8 +66,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CeilingFanContextTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="org.example.HighStateTest" />
+      <option name="METHOD_NAME" value="changeSetting_nullCeilingStateContext_throwsException" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HighStateTest.changeSetting_nullCeilingStateContext_throwsException" />
         <item itemvalue="JUnit.MediumStateTest.changeSetting_nullCeilingStateContext_throwsException" />
         <item itemvalue="JUnit.MediumStateTest" />
         <item itemvalue="JUnit.LowStateTest.changeSetting_nullCeilingStateContext_throwsException" />
         <item itemvalue="JUnit.OffStateTest.changeSetting_nullCeilingStateContext_throwsException" />
-        <item itemvalue="JUnit.CeilingFanContextTest" />
       </list>
     </recent_temporary>
   </component>
