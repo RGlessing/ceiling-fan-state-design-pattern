@@ -2,6 +2,7 @@ package org.example;
 
 import static org.junit.Assert.assertTrue;
 
+import org.junit.Before;
 import org.junit.Test;
 
 /**
@@ -9,15 +10,25 @@ import org.junit.Test;
  *
  * @author Ryan Glessing
  */
-public class CeilingFanContextTest
-{
+public class CeilingFanContextTest {
+
+    private CeilingFanContext context;
+
+
+    /**
+     * Initialise CeilingFanContext object before each test
+     */
+    @Before
+    public void before() {
+        this.context = new CeilingFanContext();
+    }
+
     /**
      * This test will ensure a ceiling fan is initially in the off state when a CeilingFanContext object is
      * instantiated. It will also ensure the ceiling fan cycles through speed states.
      */
     @Test
     public void pullSpeedChain_startInOffState_cycleThroughSpeedStates(){
-        CeilingFanContext context = new CeilingFanContext();
         assertTrue(context.getSpeed() instanceof OffState);
         context.pullSpeedChain();
         assertTrue(context.getSpeed() instanceof LowState);
@@ -35,7 +46,6 @@ public class CeilingFanContextTest
      */
     @Test
     public void pullDirectionChain_startInClockwiseState_cycleThroughDirectionStates(){
-        CeilingFanContext context = new CeilingFanContext();
         assertTrue(context.getDirection() instanceof ClockwiseState);
         context.pullDirectionChain();
         assertTrue(context.getDirection() instanceof CounterclockwiseState);
@@ -49,7 +59,6 @@ public class CeilingFanContextTest
      */
     @Test
     public void pullDirectionChain_startInOffState_remainInOffState(){
-        CeilingFanContext context = new CeilingFanContext();
         context.pullSpeedChain();
         assertTrue(context.getDirection() instanceof ClockwiseState);
     }
@@ -60,7 +69,6 @@ public class CeilingFanContextTest
      */
     @Test
     public void pullSpeedChain_startInClockwiseState_remainInClockwiseState(){
-        CeilingFanContext context = new CeilingFanContext();
         context.pullDirectionChain();
         assertTrue(context.getSpeed() instanceof OffState);
     }
