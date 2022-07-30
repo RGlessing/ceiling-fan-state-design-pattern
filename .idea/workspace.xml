@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Passed HighStateTest null context test.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ClockwiseStateTest.java" afterDir="false" />
+    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Passed CounterclockwiseStateTest null context test.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CeilingFanContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CeilingFanContext.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -428,7 +428,35 @@
       <option name="project" value="LOCAL" />
       <updated>1659144154246</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Added ClockwiseStateTest with null context test.">
+      <created>1659144304110</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1659144304110</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Passed ClockwiseStateTest null context test.">
+      <created>1659144347442</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1659144347443</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Added CounterclockwiseStateTest with null context test.">
+      <created>1659144444093</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1659144444093</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Passed CounterclockwiseStateTest null context test.">
+      <created>1659144477120</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1659144477120</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -443,10 +471,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented low to medium state change. Commented Code." />
-    <MESSAGE value="Added test for changing to medium to high state. Created high state." />
-    <MESSAGE value="Implemented changeSetting in MediumState to change from medium to high state. Added and fixed comments." />
-    <MESSAGE value="Added test for changing from High to Off state." />
     <MESSAGE value="Added DirectionState Interface and DirectionStateTest" />
     <MESSAGE value="Added direction attribute with get and set methods. Added a clockwise state. Added direction init test." />
     <MESSAGE value="Passed fan direction init test." />
@@ -468,6 +492,10 @@
     <MESSAGE value="Passed MediumStateTest null context test." />
     <MESSAGE value="Added HighStateTest with null context test." />
     <MESSAGE value="Passed HighStateTest null context test." />
-    <option name="LAST_COMMIT_MESSAGE" value="Passed HighStateTest null context test." />
+    <MESSAGE value="Added ClockwiseStateTest with null context test." />
+    <MESSAGE value="Passed ClockwiseStateTest null context test." />
+    <MESSAGE value="Added CounterclockwiseStateTest with null context test." />
+    <MESSAGE value="Passed CounterclockwiseStateTest null context test." />
+    <option name="LAST_COMMIT_MESSAGE" value="Passed CounterclockwiseStateTest null context test." />
   </component>
 </project>

@@ -9,6 +9,9 @@ public class CeilingFanContext {
     private SpeedState speed;
     private DirectionState direction;
 
+    /**
+     * Ceiling an initialized to be in off state and clockwise state
+     */
     public CeilingFanContext(){
         speed = new OffState();
         direction = new ClockwiseState();
