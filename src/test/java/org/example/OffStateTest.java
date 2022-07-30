@@ -5,6 +5,12 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
+/**
+ * Unit tests for OffStateTest.
+ *
+ * @author Ryan Glessing
+ */
+
 public class OffStateTest {
     private OffState offState;
 

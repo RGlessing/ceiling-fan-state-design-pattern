@@ -5,6 +5,12 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
+/**
+ * Unit tests for MediumStateTest.
+ *
+ * @author Ryan Glessing
+ */
+
 public class MediumStateTest {
     private MediumState mediumState;
 

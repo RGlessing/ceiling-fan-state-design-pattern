@@ -5,6 +5,12 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
+/**
+ * Unit tests for HighStateTest.
+ *
+ * @author Ryan Glessing
+ */
+
 public class HighStateTest {
     private HighState highState;
 

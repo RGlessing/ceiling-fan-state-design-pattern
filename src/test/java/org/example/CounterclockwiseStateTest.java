@@ -5,6 +5,12 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
+/**
+ * Unit tests for CounterclockwiseStateTest.
+ *
+ * @author Ryan Glessing
+ */
+
 public class CounterclockwiseStateTest {
     private CounterclockwiseState counterclockwiseState;
 
