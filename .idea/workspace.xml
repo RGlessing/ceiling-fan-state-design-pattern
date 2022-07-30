@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Added MediumStateTest with null context test.">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MediumState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MediumState.java" afterDir="false" />
+    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Passed HighStateTest null context test.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ClockwiseStateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -407,7 +407,28 @@
       <option name="project" value="LOCAL" />
       <updated>1659143926234</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Passed MediumStateTest null context test.">
+      <created>1659143990112</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1659143990112</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Added HighStateTest with null context test.">
+      <created>1659144114783</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1659144114783</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Passed HighStateTest null context test.">
+      <created>1659144154246</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1659144154246</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -422,9 +443,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added code to pullSpeedChain. Now change from off to low state. Passed test." />
-    <MESSAGE value="Comments and Refactoring" />
-    <MESSAGE value="Added MediumState and test for changing to medium state" />
     <MESSAGE value="Implemented low to medium state change. Commented Code." />
     <MESSAGE value="Added test for changing to medium to high state. Created high state." />
     <MESSAGE value="Implemented changeSetting in MediumState to change from medium to high state. Added and fixed comments." />
@@ -447,6 +465,9 @@
     <MESSAGE value="Added LowStateTest with null context test." />
     <MESSAGE value="Passed LowStateTest null context test." />
     <MESSAGE value="Added MediumStateTest with null context test." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added MediumStateTest with null context test." />
+    <MESSAGE value="Passed MediumStateTest null context test." />
+    <MESSAGE value="Added HighStateTest with null context test." />
+    <MESSAGE value="Passed HighStateTest null context test." />
+    <option name="LAST_COMMIT_MESSAGE" value="Passed HighStateTest null context test." />
   </component>
 </project>
