@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Passed null state test in OffStateTest.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/LowStateTest.java" afterDir="false" />
+    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Added MediumStateTest with null context test.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MediumState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MediumState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MediumStateTest">
+  <component name="RunManager" selected="JUnit.MediumStateTest.changeSetting_nullCeilingStateContext_throwsException">
     <configuration name="CeilingFanContextTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ceiling-fan-state-design-pattern" />
       <extension name="coverage">
@@ -68,22 +68,6 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.CeilingFanContextTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CeilingFanContextTest.pullDirectionChain_startInClockwiseState_cycleThroughDirectionStates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ceiling-fan-state-design-pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CeilingFanContextTest" />
-      <option name="METHOD_NAME" value="pullDirectionChain_startInClockwiseState_cycleThroughDirectionStates" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,6 +103,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MediumStateTest.changeSetting_nullCeilingStateContext_throwsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ceiling-fan-state-design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.MediumStateTest" />
+      <option name="METHOD_NAME" value="changeSetting_nullCeilingStateContext_throwsException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OffStateTest.changeSetting_nullCeilingStateContext_throwsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ceiling-fan-state-design-pattern" />
       <extension name="coverage">
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MediumStateTest.changeSetting_nullCeilingStateContext_throwsException" />
         <item itemvalue="JUnit.MediumStateTest" />
         <item itemvalue="JUnit.LowStateTest.changeSetting_nullCeilingStateContext_throwsException" />
         <item itemvalue="JUnit.OffStateTest.changeSetting_nullCeilingStateContext_throwsException" />
         <item itemvalue="JUnit.CeilingFanContextTest" />
-        <item itemvalue="JUnit.CeilingFanContextTest.pullDirectionChain_startInClockwiseState_cycleThroughDirectionStates" />
       </list>
     </recent_temporary>
   </component>
@@ -385,7 +385,28 @@
       <option name="project" value="LOCAL" />
       <updated>1659143451035</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Added LowStateTest with null context test.">
+      <created>1659143715694</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1659143715694</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Passed LowStateTest null context test.">
+      <created>1659143775829</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1659143775829</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Added MediumStateTest with null context test.">
+      <created>1659143926234</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1659143926234</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -400,9 +421,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added LowState. Implements SpeedState." />
-    <MESSAGE value="Changed CheckIfInitiallyOff to checkIfInitiallyOff" />
-    <MESSAGE value="Added TestChangeSetting to OffStateTest and empty pullSpeedChain method to CeilingFanContext." />
     <MESSAGE value="Added code to pullSpeedChain. Now change from off to low state. Passed test." />
     <MESSAGE value="Comments and Refactoring" />
     <MESSAGE value="Added MediumState and test for changing to medium state" />
@@ -425,6 +443,9 @@
     <MESSAGE value="Added Before to initialise context before each test." />
     <MESSAGE value="Created OffStateTest with null state test." />
     <MESSAGE value="Passed null state test in OffStateTest." />
-    <option name="LAST_COMMIT_MESSAGE" value="Passed null state test in OffStateTest." />
+    <MESSAGE value="Added LowStateTest with null context test." />
+    <MESSAGE value="Passed LowStateTest null context test." />
+    <MESSAGE value="Added MediumStateTest with null context test." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added MediumStateTest with null context test." />
   </component>
 </project>
