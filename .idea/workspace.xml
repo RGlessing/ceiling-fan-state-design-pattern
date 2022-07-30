@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment=" Moved tests to CeilingFanContextTest. Combined similar Tests.">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CeilingFanContextTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CeilingFanContextTest.java" afterDir="false" />
+    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Added Before to initialise context before each test.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/OffStateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CeilingFanContextTest">
+  <component name="RunManager" selected="JUnit.OffStateTest.changeSetting_nullCeilingStateContext_throwsException">
     <configuration name="CeilingFanContextTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ceiling-fan-state-design-pattern" />
       <extension name="coverage">
@@ -119,7 +120,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpeedStateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OffStateTest.changeSetting_nullCeilingStateContext_throwsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ceiling-fan-state-design-pattern" />
       <extension name="coverage">
         <pattern>
@@ -128,19 +129,20 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.SpeedStateTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="org.example.OffStateTest" />
+      <option name="METHOD_NAME" value="changeSetting_nullCeilingStateContext_throwsException" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OffStateTest.changeSetting_nullCeilingStateContext_throwsException" />
         <item itemvalue="JUnit.CeilingFanContextTest" />
         <item itemvalue="JUnit.CeilingFanContextTest.pullDirectionChain_startInClockwiseState_cycleThroughDirectionStates" />
         <item itemvalue="JUnit.CeilingFanContextTest.pullSpeedChain_startInOffState_cycleThroughSpeedStates" />
         <item itemvalue="JUnit.DirectionStateTest" />
-        <item itemvalue="JUnit.SpeedStateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -363,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659140960036</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Added Before to initialise context before each test.">
+      <created>1659142540287</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1659142540287</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -378,7 +387,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Test to check if fan is initially in off state." />
     <MESSAGE value="Set speed to off state in CeilingFanContext constructor. Passed test CheckIfInitiallyOff." />
     <MESSAGE value="Added comment to CheckIfInitiallyOff test case" />
     <MESSAGE value="Added LowState. Implements SpeedState." />
@@ -403,6 +411,7 @@
     <MESSAGE value="Added and passed test to ensure direction change does not affect speed." />
     <MESSAGE value="Added and passed test to ensure speed change does not affect direction." />
     <MESSAGE value="Removed unnecessary init test." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed unnecessary init test." />
+    <MESSAGE value="Added Before to initialise context before each test." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Before to initialise context before each test." />
   </component>
 </project>
