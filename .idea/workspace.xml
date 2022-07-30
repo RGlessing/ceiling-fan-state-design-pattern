@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Added comments">
+    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Removed unnecessary init test.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CeilingFanContextTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CeilingFanContextTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DirectionStateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SpeedStateTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +64,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CeilingFanContextTest.pullDirectionChain_startInClockwiseState_cycleThroughDirectionStates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ceiling-fan-state-design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CeilingFanContextTest" />
+      <option name="METHOD_NAME" value="pullDirectionChain_startInClockwiseState_cycleThroughDirectionStates" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CeilingFanContextTest.pullSpeedChain_startInOffState_cycleThroughSpeedStates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ceiling-fan-state-design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CeilingFanContextTest" />
+      <option name="METHOD_NAME" value="pullSpeedChain_startInOffState_cycleThroughSpeedStates" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DirectionStateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ceiling-fan-state-design-pattern" />
       <extension name="coverage">
@@ -72,22 +107,6 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.DirectionStateTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DirectionStateTest.directionChangeDoesNotChangeSpeed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ceiling-fan-state-design-pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DirectionStateTest" />
-      <option name="METHOD_NAME" value="directionChangeDoesNotChangeSpeed" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,29 +126,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpeedStateTest.speedChangeDoesNotChangeDirection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ceiling-fan-state-design-pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.SpeedStateTest" />
-      <option name="METHOD_NAME" value="speedChangeDoesNotChangeDirection" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CeilingFanContextTest" />
+        <item itemvalue="JUnit.CeilingFanContextTest.pullDirectionChain_startInClockwiseState_cycleThroughDirectionStates" />
+        <item itemvalue="JUnit.CeilingFanContextTest.pullSpeedChain_startInOffState_cycleThroughSpeedStates" />
         <item itemvalue="JUnit.DirectionStateTest" />
         <item itemvalue="JUnit.SpeedStateTest" />
-        <item itemvalue="JUnit.SpeedStateTest.speedChangeDoesNotChangeDirection" />
-        <item itemvalue="JUnit.DirectionStateTest.directionChangeDoesNotChangeSpeed" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659034037476</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Removed unnecessary init test.">
+      <created>1659140960036</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1659140960036</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -360,7 +370,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added speed attribute with get and set methods to CeilingFanContext" />
     <MESSAGE value="Added Test to check if fan is initially in off state." />
     <MESSAGE value="Set speed to off state in CeilingFanContext constructor. Passed test CheckIfInitiallyOff." />
     <MESSAGE value="Added comment to CheckIfInitiallyOff test case" />
@@ -385,6 +394,7 @@
     <MESSAGE value="Renamed test methods to begin with lowercase letters." />
     <MESSAGE value="Added and passed test to ensure direction change does not affect speed." />
     <MESSAGE value="Added and passed test to ensure speed change does not affect direction." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added and passed test to ensure speed change does not affect direction." />
+    <MESSAGE value="Removed unnecessary init test." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed unnecessary init test." />
   </component>
 </project>
