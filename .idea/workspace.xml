@@ -56,7 +56,23 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HighStateTest.changeSetting_nullCeilingStateContext_throwsException">
+  <component name="RunManager" selected="JUnit.ClockwiseStateTest.changeSetting_nullCeilingStateContext_throwsException">
+    <configuration name="ClockwiseStateTest.changeSetting_nullCeilingStateContext_throwsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ceiling-fan-state-design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ClockwiseStateTest" />
+      <option name="METHOD_NAME" value="changeSetting_nullCeilingStateContext_throwsException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HighStateTest.changeSetting_nullCeilingStateContext_throwsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ceiling-fan-state-design-pattern" />
       <extension name="coverage">
@@ -120,29 +136,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OffStateTest.changeSetting_nullCeilingStateContext_throwsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ceiling-fan-state-design-pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.OffStateTest" />
-      <option name="METHOD_NAME" value="changeSetting_nullCeilingStateContext_throwsException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ClockwiseStateTest.changeSetting_nullCeilingStateContext_throwsException" />
         <item itemvalue="JUnit.HighStateTest.changeSetting_nullCeilingStateContext_throwsException" />
         <item itemvalue="JUnit.MediumStateTest.changeSetting_nullCeilingStateContext_throwsException" />
         <item itemvalue="JUnit.MediumStateTest" />
         <item itemvalue="JUnit.LowStateTest.changeSetting_nullCeilingStateContext_throwsException" />
-        <item itemvalue="JUnit.OffStateTest.changeSetting_nullCeilingStateContext_throwsException" />
       </list>
     </recent_temporary>
   </component>
