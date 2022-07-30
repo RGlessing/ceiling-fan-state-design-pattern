@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Created OffStateTest with null state test.">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OffState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OffState.java" afterDir="false" />
+    <list default="true" id="6ee2a65d-d31b-471a-8b35-5c5b4d8d0e3c" name="Changes" comment="Passed null state test in OffStateTest.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/LowStateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OffStateTest.changeSetting_nullCeilingStateContext_throwsException">
+  <component name="RunManager" selected="JUnit.LowStateTest.changeSetting_nullCeilingStateContext_throwsException">
     <configuration name="CeilingFanContextTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ceiling-fan-state-design-pattern" />
       <extension name="coverage">
@@ -104,7 +104,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DirectionStateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LowStateTest.changeSetting_nullCeilingStateContext_throwsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ceiling-fan-state-design-pattern" />
       <extension name="coverage">
         <pattern>
@@ -113,8 +113,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DirectionStateTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="org.example.LowStateTest" />
+      <option name="METHOD_NAME" value="changeSetting_nullCeilingStateContext_throwsException" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LowStateTest.changeSetting_nullCeilingStateContext_throwsException" />
         <item itemvalue="JUnit.OffStateTest.changeSetting_nullCeilingStateContext_throwsException" />
         <item itemvalue="JUnit.CeilingFanContextTest" />
         <item itemvalue="JUnit.CeilingFanContextTest.pullDirectionChain_startInClockwiseState_cycleThroughDirectionStates" />
         <item itemvalue="JUnit.CeilingFanContextTest.pullSpeedChain_startInOffState_cycleThroughSpeedStates" />
-        <item itemvalue="JUnit.DirectionStateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -378,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659143303438</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Passed null state test in OffStateTest.">
+      <created>1659143451035</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1659143451035</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -393,7 +401,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added comment to CheckIfInitiallyOff test case" />
     <MESSAGE value="Added LowState. Implements SpeedState." />
     <MESSAGE value="Changed CheckIfInitiallyOff to checkIfInitiallyOff" />
     <MESSAGE value="Added TestChangeSetting to OffStateTest and empty pullSpeedChain method to CeilingFanContext." />
@@ -418,6 +425,7 @@
     <MESSAGE value="Removed unnecessary init test." />
     <MESSAGE value="Added Before to initialise context before each test." />
     <MESSAGE value="Created OffStateTest with null state test." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created OffStateTest with null state test." />
+    <MESSAGE value="Passed null state test in OffStateTest." />
+    <option name="LAST_COMMIT_MESSAGE" value="Passed null state test in OffStateTest." />
   </component>
 </project>
