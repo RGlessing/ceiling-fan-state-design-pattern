@@ -10,15 +10,15 @@ A ceiling fan object is the only object that is required to be instantiated for 
 
 **void : pullSpeedChain** Cycles through the speed states off, low, medium, and high
 
-**void:pullDirectionChain** Alternates between the direction states clockwise and counterclockwise
+**void : pullDirectionChain** Alternates between the direction states clockwise and counterclockwise
 
-**SpeedState:getSpeed** Returns the curent speed state
+**SpeedState : getSpeed** Returns the curent speed state
 
-**void:setSpeed** Sets new speed state
+**void : setSpeed** Sets new speed state
 
-**DirectionState:getDirection** Returns the curent direction state
+**DirectionState : getDirection** Returns the curent direction state
 
-**void:setSpeed** Sets new direction state
+**void : setDirection** Sets new direction state
 
 ## Testing
 
