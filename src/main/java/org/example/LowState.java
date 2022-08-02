@@ -21,4 +21,9 @@ public class LowState implements SpeedState {
         Validate.notNull(context, "context must be set");
         context.setSpeed(new MediumState());
     }
+
+    @Override
+    public String toString() {
+        return "LowState{}";
+    }
 }

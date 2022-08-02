@@ -59,4 +59,11 @@ public class CeilingFanContext {
      */
     public void pullDirectionChain() { direction.changeSetting(this); }
 
+    @Override
+    public String toString() {
+        return "CeilingFanContext{" +
+                "speed=" + speed +
+                ", direction=" + direction +
+                '}';
+    }
 }

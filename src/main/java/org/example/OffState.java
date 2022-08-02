@@ -22,4 +22,9 @@ public class OffState implements SpeedState{
         Validate.notNull(context, "context must be set");
         context.setSpeed(new LowState());
     }
+
+    @Override
+    public String toString() {
+        return "OffState{}";
+    }
 }

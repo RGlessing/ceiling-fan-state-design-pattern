@@ -22,4 +22,9 @@ public class ClockwiseState implements DirectionState{
         Validate.notNull(context, "context must be set");
         context.setDirection(new CounterclockwiseState());
     }
+
+    @Override
+    public String toString() {
+        return "ClockwiseState{}";
+    }
 }
