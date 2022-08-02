@@ -80,7 +80,7 @@
           <configuration>
             <archive>
               <manifest>
-                <mainClass>fully.qualified.MainClass</mainClass>
+                <mainClass>org.example.Demo</mainClass>
               </manifest>
             </archive>
             <descriptorRefs>
